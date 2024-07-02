@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('/content/WhatsApp Image 2024-05-15 at 10.28.24_bb045554.jpg')
+image = cv2.imread('/content/Laboratory_image.jpg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 gradients_sobelx = cv2.Sobel(image, -1, 1, 0)
